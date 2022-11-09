@@ -1,11 +1,60 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+    background-color: #398c96;
+}
 body {
-    background: lightblue;
-    display: flex;
-    align-self: center;
+    background: #434c2d;
+    line-height: 1.5;
+    margin: 0;
+}
+header {
+    font-size: 1.3rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    text-align: center;
+    background: #398c96;
+}
+h1 h2 {
+    font-weight: 400;
+    line-height: 1.1;
+    margin: 0 auto clamp(3rem, 5vw, 5.6rem);
+    padding: 0 2rem;
+    max-width: 30rem;
 }
 h1 {
     display: block;
+}
+img {
+    display: block;
+    content: "";
+    position: relative;
+    height: auto;
+    width: 100vw;
+}
+nav{
+    background-color: #434c2d;
+}
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: clamp(0.25rem, 0.5vw, 0.5rem);
+    padding: 0.5rem;
+    margin: 1rem 0 0;
+    list-style: none;
+}
+nav a {
+    display: inline-flex;
     align-items: center;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-left: 5em;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    background: #434c2d;
+    color: lightblue;
+    text-align: center;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
 }
